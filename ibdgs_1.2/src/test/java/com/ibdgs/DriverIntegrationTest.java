@@ -15,16 +15,15 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Task 3 - Driver Integration Testing.
- *
- * <p>Integration tests that exercise {@link DriverRepository} against a real TXT
- * file using the real model classes. They verify that valid drivers are stored,
- * invalid drivers are rejected, updates are persisted, and counts are correct,
- * including across a simulated application restart (a new repository instance
- * reading the same file).
- *
- * <p>These mirror the documented integration test table (IT-D1 .. IT-D4).
+/*
+  Task 3 - Driver Integration Testing.
+ 
+  Integration tests that exercise {@link DriverRepository} against a real TXT
+  file using the real model classes. They verify that valid drivers are stored,
+  invalid drivers are rejected, updates are persisted, and counts are correct,
+  including across a simulated application restart (a new repository instance
+  reading the same file).
+  These mirror the documented integration test table (IT-D1 .. IT-D4).
  */
 public class DriverIntegrationTest {
 
@@ -74,7 +73,7 @@ public class DriverIntegrationTest {
         assertTrue(repo.add(new Driver("34##efghCD", "Carol White", 4, Driver.LICENSE_MEDIUM,
                 "5|Park Rd|Perth|WA|Australia", "10-10-1992")));
         assertTrue(repo.add(new Driver("56$$ijklEF", "David Brown", 9, Driver.LICENSE_HEAVY,
-                "8|Hill St|Hobart|TAS|Australia", "20-02-1988")));
+                "8|Hill St|Hobart|TAS|Australia", "20-02-1989")));
         assertEquals("Carol White", repo.retrieve("34##efghCD").getName());
         assertEquals("David Brown", repo.retrieve("56$$ijklEF").getName());
     }
