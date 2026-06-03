@@ -74,6 +74,15 @@ public class BusUnitTest {
         assertFalse(repo.add(new Bus("1234AB78", 30, 70.0, Bus.FUEL_DIESEL)));
     }
 
+    @Test
+    @DisplayName("B1-TC06: Bus ID with all zeros is accepted (boundary)")
+    void b1_allZerosBusId() {
+        Bus bus = new Bus("00000000", 40, 80.0, Bus.FUEL_DIESEL);
+
+        assertTrue(repo.add(bus));
+        assertEquals(bus, repo.retrieve("00000000"));
+    }
+
     // ===================== B2 - Capacity Update Restriction =====================
 
     @Test
@@ -152,6 +161,13 @@ public class BusUnitTest {
     void b4_nonElectricUnaffected() {
         assertTrue(Bus.isExperienceAllowed(3, Bus.FUEL_DIESEL));
     }
+
+    @Test
+    @DisplayName("B4-TC05: Exactly 4 years experience on electric bus rejected (boundary)")
+    void b4_fourYearsRejected() {
+        assertFalse(Bus.isExperienceAllowed(4, Bus.FUEL_ELECTRICITY));
+    }
+
 
     // ===================== B5 - Driver Licence Restriction =====================
 
