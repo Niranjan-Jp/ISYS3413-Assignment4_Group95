@@ -164,5 +164,17 @@ public class BusIntegrationTest {
 
         BusRepository reloaded = new BusRepository(filePath);
         assertEquals(original, reloaded.count());
+    
+    }
+
+    @Test
+    @DisplayName("IT-B5-02: Updating a non-existing bus is rejected")
+    void itB5_02_updateNonExistingBus() {
+    BusRepository repo = new BusRepository(filePath);
+    boolean updated = repo.update(
+            new Bus("77777777", 40, 80.0, Bus.FUEL_DIESEL),
+            30
+    );
+    assertFalse(updated);
     }
 }
