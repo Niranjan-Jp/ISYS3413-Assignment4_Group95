@@ -14,15 +14,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-/**
- * Task 1 - Driver Unit Testing.
- *
- * <p>At least 15 unit tests covering driver conditions D1-D5, with at least
- * three cases per condition (normal, invalid and edge cases). These mirror the
- * documented test case table (TC1-TC15).
- *
- * <p>Each test uses a fresh, temporary repository file so the tests are
- * independent and do not depend on previously stored data.
+/*
+ Task 1 - Driver Unit Testing.
+ <p>At least 15 unit tests covering driver conditions D1-D5, with at least
+ three cases per condition (normal, invalid and edge cases). These mirror the
+ documented test case table (TC1-TC15).
+ <p>Each test uses a fresh, temporary repository file so the tests are
+ independent and do not depend on previously stored data.
  */
 public class DriverUnitTest {
 
