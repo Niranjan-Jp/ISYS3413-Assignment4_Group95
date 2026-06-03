@@ -1,3 +1,4 @@
+// BusRepository: manages add, retrieve, update, and count operations for buses with file-based storage. (Iftekhar)
 package com.ibdgs.repository;
 
 import com.ibdgs.model.Bus;
