@@ -1,29 +1,28 @@
 package com.ibdgs;
 
-import com.ibdgs.model.Bus;
-import com.ibdgs.model.Driver;
-import com.ibdgs.repository.BusRepository;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.io.TempDir;
-
 import java.nio.file.Path;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.io.TempDir;
 
-/**
- * Task 2 - Bus Unit Testing.
- *
- * <p>At least 15 unit tests covering bus conditions B1-B5, with at least three
- * cases per condition (normal, invalid and edge), mirroring the documented test
- * case table (B1-TC.. through B5-TC..).
- *
- * <p>B1 and B2 are exercised through the repository (uniqueness, capacity
- * persistence). B3-B5 are per-driver eligibility rules tested through the
- * static helper methods on {@link Bus}.
+import com.ibdgs.model.Bus;
+import com.ibdgs.model.Driver;
+import com.ibdgs.repository.BusRepository;
+
+/*
+ Task 2 - Bus Unit Testing.
+ 
+ At least 15 unit tests covering bus conditions B1-B5, with at least three
+ cases per condition (normal, invalid and edge), mirroring the documented test
+ case table (B1-TC.. through B5-TC..).
+ B1 and B2 are exercised through the repository (uniqueness, capacity
+ persistence). B3-B5 are per-driver eligibility rules tested through the
+ static helper methods on {@link Bus}.
  */
 public class BusUnitTest {
 
