@@ -22,7 +22,8 @@ jobs:
           cache: maven
 
       - name: Build and run all tests
-        run: mvn test --batch-mode
+        working-directory: ibdgs_1.2
+        run: mvn clean test --batch-mode
 
       - name: Upload test results
         if: always()
