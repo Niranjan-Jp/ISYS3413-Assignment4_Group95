@@ -1,0 +1,5 @@
+45@@abcdAB|Alice Smith|3|Heavy|12<PIPE>Main St<PIPE>Melbourne<PIPE>VIC<PIPE>Australia|15-06-1990
+23!!xyzwAB|Bob Jones|7|PublicTransport|99<PIPE>Queen St<PIPE>Sydney<PIPE>NSW<PIPE>Australia|01-01-1985
+34##efghCD|Carol White|4|Medium|5<PIPE>Park Rd<PIPE>Perth<PIPE>WA<PIPE>Australia|10-10-1992
+56$$ijklEF|David Brown|9|Heavy|8<PIPE>Hill St<PIPE>Hobart<PIPE>TAS<PIPE>Australia|20-02-1988
+29&&pqrsIJ|Senior Driver|11|Heavy|3<PIPE>Long Rd<PIPE>Darwin<PIPE>NT<PIPE>Australia|05-05-1970

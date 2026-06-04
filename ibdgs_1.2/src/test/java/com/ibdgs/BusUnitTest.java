@@ -16,7 +16,6 @@ import com.ibdgs.repository.BusRepository;
 
 /*
  Task 2 - Bus Unit Testing.
- 
  At least 15 unit tests covering bus conditions B1-B5, with at least three
  cases per condition (normal, invalid and edge), mirroring the documented test
  case table (B1-TC.. through B5-TC..).
@@ -77,7 +76,6 @@ public class BusUnitTest {
     @DisplayName("B1-TC06: Bus ID with all zeros is accepted (boundary)")
     void b1_allZerosBusId() {
         Bus bus = new Bus("00000000", 40, 80.0, Bus.FUEL_DIESEL);
-
         assertTrue(repo.add(bus));
         assertEquals(bus, repo.retrieve("00000000"));
     }

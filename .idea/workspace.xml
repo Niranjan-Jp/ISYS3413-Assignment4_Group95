@@ -6,7 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="3d19f9f9-ade7-415e-964b-cf77a8490905" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibdgs_1.2/buses.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibdgs_1.2/buses.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibdgs_1.2/drivers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ibdgs_1.2/drivers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/BusIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/BusIntegrationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/BusUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/BusUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/DriverIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ibdgs_1.2/src/test/java/com/ibdgs/DriverIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,61 +22,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6790093118498919" />
-      <entry key="MS500" value="3.6474094052515844" />
-      <entry key="S2" value="6.4764635420492676" />
-      <entry key="S5" value="12.059490172194401" />
-      <entry key="S10" value="21.23868545162742" />
-      <entry key="S30" value="47.29045042078657" />
-      <entry key="S60" value="68.85046568117453" />
-      <entry key="M2" value="92.23264990202644" />
-      <entry key="M5" value="117.96001709996374" />
-      <entry key="M10" value="133.11756794885645" />
-      <entry key="M15" value="142.02036586311917" />
-      <entry key="M30" value="156.6989238177414" />
-      <entry key="H1" value="168.09527060483927" />
-      <entry key="H2" value="175.36678215168408" />
-      <entry key="H4" value="179.49579492546889" />
-      <entry key="D1" value="183.22162133876716" />
-      <entry key="W1" value="183.88810299060282" />
+      <entry key="MS100" value="1.000145578375767" />
+      <entry key="MS500" value="1.2878642216323621" />
+      <entry key="S2" value="3.6258798422002876" />
+      <entry key="S5" value="6.352943838104547" />
+      <entry key="S10" value="8.654140173738536" />
+      <entry key="S30" value="14.554132567786572" />
+      <entry key="S60" value="18.24057935328587" />
+      <entry key="M2" value="20.860188932178236" />
+      <entry key="M5" value="25.156217442556816" />
+      <entry key="M10" value="35.63051053456433" />
+      <entry key="M15" value="50.89864154247494" />
+      <entry key="M30" value="98.89738919922803" />
+      <entry key="H1" value="158.47794788280657" />
+      <entry key="H2" value="207.3995890365807" />
+      <entry key="H4" value="239.10096556437824" />
+      <entry key="D1" value="270.20041631309965" />
+      <entry key="W1" value="276.01604150423816" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S2" value="5.432868896989523E-150" />
+      <entry key="S5" value="1.9679392604548408E-60" />
+      <entry key="S10" value="1.4028325846140144E-30" />
+      <entry key="S30" value="1.1194429055050348E-10" />
+      <entry key="S60" value="1.0580372892790853E-5" />
+      <entry key="M2" value="0.0032527485136098133" />
+      <entry key="M5" value="0.10113470100079108" />
+      <entry key="M10" value="0.3180168250278453" />
+      <entry key="M15" value="0.4659078897820491" />
+      <entry key="M30" value="0.6825744573173312" />
+      <entry key="H1" value="0.8261806444823859" />
+      <entry key="H2" value="0.9089447972690009" />
+      <entry key="H4" value="0.9533859644808081" />
+      <entry key="D1" value="0.9920756548417841" />
+      <entry key="W1" value="0.998864087117466" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.5561418359298054" />
-      <entry key="MS500" value="3.501448276054683" />
-      <entry key="S2" value="6.4137026263196235" />
-      <entry key="S5" value="12.024024863979786" />
-      <entry key="S10" value="21.213433481521257" />
-      <entry key="S30" value="47.273510376793155" />
-      <entry key="S60" value="68.83699482124368" />
-      <entry key="M2" value="92.22251117917574" />
-      <entry key="M5" value="117.95427231047147" />
-      <entry key="M10" value="133.11420040741186" />
-      <entry key="M15" value="142.01794124782668" />
-      <entry key="M30" value="156.69757176753728" />
-      <entry key="H1" value="168.09454228620717" />
-      <entry key="H2" value="175.36640156681435" />
-      <entry key="H4" value="179.49560000186725" />
-      <entry key="D1" value="183.22158815777811" />
-      <entry key="W1" value="183.88809823276966" />
+      <entry key="MS100" value="0.0035708895696869485" />
+      <entry key="MS500" value="0.493989197799638" />
+      <entry key="S2" value="3.183995179662815" />
+      <entry key="S5" value="6.126155312741119" />
+      <entry key="S10" value="8.521134554480188" />
+      <entry key="S30" value="14.48664685902518" />
+      <entry key="S60" value="18.198683906114695" />
+      <entry key="M2" value="20.839479280639317" />
+      <entry key="M5" value="25.245690623066995" />
+      <entry key="M10" value="35.94086532312388" />
+      <entry key="M15" value="51.358372739222276" />
+      <entry key="M30" value="99.57573482283576" />
+      <entry key="H1" value="159.30145356961967" />
+      <entry key="H2" value="208.30698906465776" />
+      <entry key="H4" value="240.0535151969885" />
+      <entry key="D1" value="271.1923424243098" />
+      <entry key="W1" value="277.01488396071164" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -87,6 +91,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.BusIntegrationTest.executor": "Run",
+    "JUnit.BusIntegrationTest.itB1_01_addAndRetrieve.executor": "Run",
+    "JUnit.BusIntegrationTest.itB4_03_countAfterReload.executor": "Run",
     "JUnit.BusUnitTest.executor": "Run",
     "JUnit.DriverIntegrationTest.executor": "Run",
     "JUnit.DriverUnitTest.executor": "Run",
@@ -110,6 +116,46 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="BusIntegrationTest.itB1_01_addAndRetrieve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intelligent-bus-driver-guidance-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibdgs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ibdgs" />
+      <option name="MAIN_CLASS_NAME" value="com.ibdgs.BusIntegrationTest" />
+      <option name="METHOD_NAME" value="itB1_01_addAndRetrieve" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BusIntegrationTest.itB4_03_countAfterReload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intelligent-bus-driver-guidance-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibdgs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ibdgs" />
+      <option name="MAIN_CLASS_NAME" value="com.ibdgs.BusIntegrationTest" />
+      <option name="METHOD_NAME" value="itB4_03_countAfterReload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BusIntegrationTest.itB4_03_countAfterReload" />
+        <item itemvalue="JUnit.BusIntegrationTest.itB1_01_addAndRetrieve" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -128,7 +174,12 @@
       <workItem from="1780447813089" duration="4115000" />
       <workItem from="1780473833098" duration="103000" />
       <workItem from="1780477844826" duration="3647000" />
-      <workItem from="1780487353824" duration="1035000" />
+      <workItem from="1780487353824" duration="1538000" />
+      <workItem from="1780500083739" duration="30000" />
+      <workItem from="1780501463900" duration="408000" />
+      <workItem from="1780538171501" duration="1987000" />
+      <workItem from="1780540190294" duration="157000" />
+      <workItem from="1780540366573" duration="1449000" />
     </task>
     <servers />
   </component>
